@@ -82,7 +82,22 @@ Abaixo a relação dos alvos configurados na Database do Vuforia:
 
 Estrutura de pastas do projeto Unity:
 
+* `Assets/` - Scripts, Cenas, Prefabs, Modelos 3D e Materiais.
+* `Packages/` - Dependências do projeto (Manifesto do Unity).
+* `ProjectSettings/` - Configurações de Input, Tags, Physics e Vuforia.
 
+### Organização da Pasta Assets
+```text
+Assets/
+│
+├── _Scenes/         # Cena principal (SampleScene.unity)
+├── Scripts/         # Lógica do jogo (QuizManager, GaleriaManager, PosicionadorAR)
+├── Prefabs/         # Objetos 3D configurados (Obras com moldura)
+├── Materials/       # Materiais das molduras e texturas
+├── Models/          # Arquivos .fbx originais
+├── Textures/        # Imagens das obras (Mona Lisa, O Grito, etc.)
+└── Resources/       # Assets carregados dinamicamente
+```
 
 ---
 
