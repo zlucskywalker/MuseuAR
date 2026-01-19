@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="obra8" size="1.000000 0.790015" />
+    <ImageTarget name="obra7" size="1.000000 0.737942" />
+    <ImageTarget name="obra6" size="1.000000 1.057692" />
+    <ImageTarget name="obra5" size="1.000000 1.157303" />
+    <ImageTarget name="obra4" size="1.000000 1.184848" />
+    <ImageTarget name="obra3" size="1.000000 0.790909" />
+    <ImageTarget name="obra2" size="1.000000 1.241406" />
+    <ImageTarget name="obra1" size="1.000000 1.512000" />
+  </Tracking>
+</QCARConfig>
