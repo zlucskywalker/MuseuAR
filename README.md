@@ -18,7 +18,7 @@
 
 O **Museu Virtual AR** é uma aplicação de Realidade Aumentada desenvolvida para dispositivos móveis, cujo objetivo é dar um pequeno acesso à arte clássica e moderna através da tecnologia imersiva.
 
-Este projeto implementa um **Conceito de "Janela Viva"**: ao apontar a câmera para marcadores físicos, o usuário não vê apenas uma imagem 2D, mas sim **Molduras 3D flutuando no espaço**, contendo as obras de arte, simulando a experiência física de estar diante de um quadro numa exposição.
+Este projeto implementa um **Conceito de "Janela Viva"**: ao apontar a câmera para o meio físico, o usuário não vê apenas uma imagem 2D, mas sim **Molduras 3D flutuando no espaço**, contendo as obras de arte, simulando a experiência física de estar diante de um quadro numa exposição.
 
 Além da visualização, o projeto integra **Gamificação (Quiz)** para testar o conhecimento do usuário sobre a obra exibida.
 
@@ -26,7 +26,7 @@ Além da visualização, o projeto integra **Gamificação (Quiz)** para testar 
 
 ### 1. Renderização de Molduras 3D 
 Utilização de modelos tridimensionais de molduras clássicas que se sobrepõem aos marcadores físicos.
-- **Interatividade:** As obras possuem um script de rotação suave (`Rotator.cs`), dando um aspecto de item colecionável/mágico.
+- **Interatividade:** O usuário pode andar em volta da obra, dando a sensação de que ela realmente está ali flutuando.
 - **Oclusão e Escala:** Ajuste dinâmico de tamanho baseada na distância da câmera.
 
 ### 2. Sistema de Quiz Contextual
@@ -52,10 +52,10 @@ Uso de *Image Targets* de alto contraste para garantir que a obra permaneça fix
 
 ## Como Utilizar (Guia do Usuário)
 
-1.  **Iniciar:** Abra o aplicativo no seu dispositivo Android.
-2.  **Explorar:** Aponte a câmera traseira para as imagens-alvo (disponíveis na pasta `/Docs/Targets`).
-3.  **Visualizar:** A obra 3D surgirá sobre a imagem. Mova o celular ao redor para ver detalhes da moldura e da textura.
-4.  **Jogar:** Leia a pergunta que aparecerá no rodapé da tela e selecione a alternativa correta sobre o autor ou o movimento artístico.
+1.  **Instalar:** Abra o instalador `install_MuseuAR.apk` a aba **Releases** deste repositório.
+2.  **ABRIR:** Abra o aplicativo `MuseuAR`.
+4.  **Visualizar:** A obra 3D surgirá sobre a imagem. Mova o celular ao redor para ver detalhes da moldura e da textura.
+5.  **Jogar:** Leia a pergunta que aparecerá no rodapé da tela e selecione a alternativa correta sobre o autor ou o movimento artístico.
 
 ---
 
@@ -83,6 +83,7 @@ Abaixo a relação dos alvos configurados na Database do Vuforia:
 Estrutura de pastas do projeto Unity:
 
 
+
 ---
 
 ## Instalação e Build
@@ -93,7 +94,7 @@ Estrutura de pastas do projeto Unity:
 * Permissão de instalação de fontes desconhecidas (para APK externo).
 
 ### Passo a Passo
-1.  Baixe o arquivo `MuseuAR.apk` na aba **Releases** deste repositório.
+1.  Baixe o arquivo `install_MuseuAR.apk` na aba **Releases** deste repositório.
 2.  Transfira para o celular e instale.
 3.  Ao abrir, conceda permissão de uso da **Câmera**.
 
