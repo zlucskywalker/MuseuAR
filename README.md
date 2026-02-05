@@ -1,6 +1,6 @@
 # Museu Virtual AR - Experiência Gamificada
 ## Disciplina: Computação Gráfica - Engenharia da Computação
-## Alunos: Manoel Lucas Pacheco Junior (20250071269) || Gabriel Mesquita Torres (2022020390)
+## Alunos: Manoel Lucas Pacheco Junior (20250071269) 
 
 ## Sumário
 - [Sobre o Projeto](#-sobre-o-projeto)
@@ -117,7 +117,7 @@ Assets/
 
 ## Autores
 
-**Manoel Lucas Pacheco Junior** e **Gabriel Mesquita Torres**
+**Manoel Lucas Pacheco Junior** 
 * **Curso:** Engenharia da Computação - UFMA
 * **Disciplina:** Computação Gráfica (2026.1)
 
